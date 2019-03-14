@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+
+    <!--<import resource="classpath:shiro-spring.xml"></import>-->
+
+    <!--解析加载 properties 文件-->
+    <!--<context:property-placeholder location="classpath:db.properties"></context:property-placeholder>-->
+    <!--&lt;!&ndash;配置连接池&ndash;&gt;-->
+    <!--<bean id="comboPooledDataSource" class="com.alibaba.druid.pool.DruidDataSource">-->
+        <!--<property name="driverClassName" value="${driverClass}"></property>-->
+        <!--<property name="url" value="${jdbcUrl}"></property>-->
+        <!--<property name="username" value="${user}"></property>-->
+        <!--<property name="password" value="${password}"></property>-->
+    <!--</bean>-->
+
+    <!-- 创建sessionFactory  mybatis 的 创建sessionFactory -->
+    <!--<bean id="sessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">-->
+        <!--<property name="dataSource" ref="comboPooledDataSource"></property>-->
+        <!--<property name="configLocation" value="classpath:SqlMapConfig.xml"></property>-->
+    <!--</bean>-->
+
+    <!-- 创建 mybatis-plus sessionFactory -->
+    <!--<bean id="sessionFactory" class="com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean">-->
+        <!--<property name="dataSource" ref="comboPooledDataSource"></property>-->
+        <!--<property name="typeAliasesPackage" value="com.huayu.school"></property>-->
+        <!--&lt;!&ndash;<property name="mapperLocations" value="classpath:com/huayu/ssm/function/mapper/FunctionMapper.xml"></property>&ndash;&gt;-->
+        <!--&lt;!&ndash;<property name="configLocation" value="classpath:SqlMapConfig.xml"></property>&ndash;&gt;-->
+        <!--<property name="plugins">-->
+            <!--<array>-->
+                <!--&lt;!&ndash; 分页插件配置 &ndash;&gt;-->
+                <!--<bean id="paginationInterceptor"-->
+                      <!--class="com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor"/>-->
+                <!--&lt;!&ndash;<bean id="paginationInterceptor"&ndash;&gt;-->
+                      <!--&lt;!&ndash;class="com.github.pagehelper.PageInterceptor"/>&ndash;&gt;-->
+                <!--&lt;!&ndash; 性能拦截器，兼打印sql，不建议生产环境配置&ndash;&gt;-->
+                <!--<bean id="performanceInterceptor"-->
+                      <!--class="com.baomidou.mybatisplus.extension.plugins.PerformanceInterceptor"/>-->
+            <!--</array>-->
+        <!--</property>-->
+
+    <!--</bean>-->
+
+    <!-- 批量扫描 mapper 接口 -->
+    <!--<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">-->
+        <!--<property name="basePackage" value="com.huayu.school"></property>-->
+        <!--<property name="sqlSessionFactoryBeanName" value="sessionFactory"></property>-->
+    <!--</bean>-->
+
+    <!-- 开启注解扫描 -->
+    <!--<context:component-scan base-package="com.huayu.school"></context:component-scan>-->
+
+    <!-- 注册事务管理器 -->
+    <!--<bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">-->
+        <!--<property name="dataSource" ref="comboPooledDataSource"></property>-->
+    <!--</bean>-->
+
+    <!-- 开启事务注解扫描 -->
+    <!--<tx:annotation-driven transaction-manager="transactionManager"></tx:annotation-driven>-->
+
+</beans>
