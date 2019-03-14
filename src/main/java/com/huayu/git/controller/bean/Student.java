@@ -35,4 +35,7 @@ public class Student {
      * 角色Id
      */
     private Integer rid;
+
+
+    private  String name;
 }
