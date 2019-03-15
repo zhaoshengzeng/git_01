@@ -40,4 +40,6 @@ public class Student {
     private  String name;
 
     private  Integer cid;
+
+    private String a;
 }
