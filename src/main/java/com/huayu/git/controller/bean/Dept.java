@@ -7,4 +7,5 @@ package com.huayu.git.controller.bean;
  **/
 public class Dept {
     private String name;
+    private Integer did;
 }
