@@ -137,6 +137,18 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-22202753">
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -167,11 +179,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3151">
-              <caret line="563" lean-forward="true" selection-start-line="563" selection-end-line="563" />
+            <state relative-caret-position="-483">
+              <caret line="207" selection-start-line="207" selection-end-line="207" />
             </state>
           </provider>
         </entry>
@@ -195,7 +207,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/huayu/git/controller/bean/Dept.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="468">
@@ -313,7 +325,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
+    <option name="x" value="-9" />
     <option name="width" value="695" />
     <option name="height" value="1000" />
   </component>
@@ -560,10 +572,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4410000" />
+    <option name="totallyTimeSpent" value="3523000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17317708" />
@@ -656,8 +668,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3151">
-          <caret line="563" lean-forward="true" selection-start-line="563" selection-end-line="563" />
+        <state relative-caret-position="-483">
+          <caret line="207" selection-start-line="207" selection-end-line="207" />
         </state>
       </provider>
     </entry>
